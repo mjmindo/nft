@@ -13,8 +13,16 @@ async function run() {
                 "value": "10" 
             },
             {
-                "trait_type": "Love",
+                "trait_type": "Money",
                 "value": "100"
+            },
+            {
+                "trait_type": "Freedom",
+                "value": "300"
+            },
+            {
+                "trait_type": "Love",
+                "value": "500"
             },
             {
                 "trait_type": "Web3",
@@ -22,9 +30,9 @@ async function run() {
             }
             ],
             // update the IPFS CID to be your image CID
-            image: "https://ipfs.io/ipfs/QmQ2wnwaFJ1w42UTywTWpM8RgiqrWwKFR6AMrpyiHPgi3p",
-            description: "So much PLW3!"
-        })
+            image: "https://ipfs.io/ipfs/QmaUFoEoZyKoo4pY3ggCDUHFq4k2zUwGBLb43WhxDvUahn",
+            description: "WAGMI!",
+        }),
     };
 
     const result = await ipfs.add(metadata);
